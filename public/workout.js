@@ -69,6 +69,7 @@ function renderWorkoutSummary(summary) {
    }
    */
   //for (let workout of summary)   C# would be for(Workout workout in summary)
+  //Train self on arrow functions
   Object.keys(summary).forEach(key => {
     const p = document.createElement("p");
     const strong = document.createElement("strong");
