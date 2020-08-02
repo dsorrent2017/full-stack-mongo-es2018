@@ -70,7 +70,7 @@ function renderWorkoutSummary(summary) {
    */
   //for (let workout of summary)   C# would be for(Workout workout in summary)
   Object.keys(summary).forEach(key => {
-    const p = document.createElement("p");gi
+    const p = document.createElement("p");
     const strong = document.createElement("strong");
 
     strong.textContent = workoutKeyMap[key];  //bind keyMap to data over key

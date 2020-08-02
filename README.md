@@ -1,1 +1,0 @@
-# full-stack-mongo-es2018
